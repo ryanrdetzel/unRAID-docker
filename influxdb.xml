@@ -38,6 +38,11 @@
         <ContainerPort>8086</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>
+       <Port>
+        <HostPort>25826</HostPort>
+        <ContainerPort>25826</ContainerPort>
+        <Protocol>udp</Protocol>
+      </Port>
     </Publish>
   </Networking>
   <Environment>
